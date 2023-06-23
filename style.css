@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*background color for full screen needs to be in html tag*/
+
+.bg{
+    background: red; /* fallback color */
+    background: linear-gradient( to bottom, rgba(4, 0, 255, 0.548), rgba(255, 174, 0, 0.829));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.mem{
+    background-color: white;
+    border-radius: 50%;
+    height: 15x;
+    padding: 15px;
+    text-align: center;
+    width: 15px;
+}
+
+.phase{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.pass{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.SStack{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.bArea{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.deckArea{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hand{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+}
