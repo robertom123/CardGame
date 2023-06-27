@@ -43,6 +43,34 @@
     transform: translate(-50%, -50%);
 }
 
+/*Card Start here*/
+.playarea{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.PA-Card{
+    
+    margin: 40px 0 0 10px;
+    border: 2px solid black;
+    height: 120px;
+    width: 120px;
+}
+
+.Card-LVL{
+    display: flex;
+    margin: 59px 0 0 0;
+    gap: 75px;
+}
+
+.Card-Bottom{
+    padding-top: 10px;
+    text-align: center;
+}
+/*Card ends here*/
 .SStack{
     display: flex;
     position: absolute;
@@ -51,27 +79,39 @@
     transform: translate(-50%, -50%);
 }
 
-.bArea{
-    display: flex;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.deckArea{
-    display: flex;
-    position: absolute;
-    top: 90%;
-    right: 5%;
-    transform: translate(-50%, -50%);
-
-}
 
 .hand{
     display: flex;
     position: absolute;
+    top: 87%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+
+}
+.hand-card{
+    border: 2px solid black;
+    height: 210px;
+    width: 165px;
+    
+}
+
+
+.deckArea{
+    display: flex;
+    position: absolute;
     top: 70%;
     right: 5%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bArea{
+    display: flex;
+    border: 2px solid black;
+    height: 170px;
+    width: 285px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
