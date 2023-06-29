@@ -55,15 +55,21 @@
 .PA-Card{
     
     margin: 40px 0 0 10px;
-    border: 2px solid black;
+    
     height: 120px;
     width: 120px;
 }
 
+.card-area{
+    position: relative;
+    width: 80%;
+    
+}
+
 .Card-LVL{
     display: flex;
-    margin: 59px 0 0 0;
-    gap: 75px;
+    margin: 5px 0 0 0;
+    gap: 55px;
 }
 
 .Card-Bottom{
@@ -74,39 +80,75 @@
 .SStack{
     display: flex;
     position: absolute;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
     top: 90%;
     left: 5%;
     transform: translate(-50%, -50%);
+    border-radius: 50%;
 }
 
+.sec-stack{
+    padding: 40px 0 80px 45px ;
+    display: flex;
+
+
+}
+
+
+/* Hand size starts here */
 
 .hand{
     display: flex;
     position: absolute;
-    top: 87%;
-    left: 90%;
+    top: 77%;
+    left: 62%;
     transform: translate(-50%, -50%);
 
 }
-.hand-card{
-    border: 2px solid black;
-    height: 210px;
-    width: 165px;
+
+.containers {
+    position: absolute;
+    margin-left: 80px;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+  }
+  
+  .cards {
+    width: 150px;
+  }
+  
+  .card {
+    width: 130px;
+    height: 180px;
+    border: 1px solid #000;
+    position: absolute;
+    transform-origin: bottom center;
     
-}
+  }
 
-
+/* Hand size ends here */
 .deckArea{
     display: flex;
     position: absolute;
     top: 70%;
     right: 5%;
     transform: translate(-50%, -50%);
+    border: 2px solid black;
+    width: 90px;
+}
+.deck-back-area{
+    width: 50px;
+    padding: 0 15px 0 0;
+    
 }
 
 
 .bArea{
     display: flex;
+    gap: 40px;
     border: 2px solid black;
     height: 170px;
     width: 285px;
